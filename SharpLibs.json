@@ -1,0 +1,16 @@
+{
+  "file_version": 1,
+  "packages": [
+    {
+      "name": "Test",
+      "author": "Test",
+      "versions": {
+        "1.0.0": {
+          "name": "Version 1.0.0",
+          "url": "test.test/test/1.0.0/test.sharplib"
+        }
+      },
+      "latest_version": "1.0.0"
+    }
+  ]
+}
