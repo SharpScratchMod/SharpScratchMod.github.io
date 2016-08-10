@@ -4,6 +4,10 @@
     {
       "name": "Test",
       "author": "Test",
+      "contributors": {
+        "name": "test",
+        "name": "test"
+      },
       "versions": {
         "1.0.0": {
           "name": "Version 1.0.0",
