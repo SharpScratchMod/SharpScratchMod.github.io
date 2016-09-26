@@ -21,8 +21,8 @@ FD2D294EBFA8AA7C481F03CDF4BCC394.mp3#1!
 87C160272F8CB825DD4B9833602E045E.mp3#1!
 F4308792A1BA991252B66943914E82C0.mp3#1!
 :
-costumeLibrary.json/1!
-soundLibrary.json/1!
+costumeLibrary.json#1!
+soundLibrary.json#1!
 :
-lang_list.txt/1!
-meow.po/1!
+lang_list.txt#1!
+meow.po#1!
