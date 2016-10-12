@@ -3,6 +3,7 @@
 	<head>
     	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
   		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <title>Download Sharp</title>
 	</head>
 	<body>
@@ -19,55 +20,65 @@
   		</nav>
   		<div class="container">
   		<h1>Download</h1>
-  		<p>Download sharp here:</p>
-        <a href="https://raw.githubusercontent.com/SharpScratchMod/SharpScratchMod.github.io/master/Sharp.swf" download>Sharp.swf</a>
-        <br>
-        <p><b>Checksums:</b></p>
-        <p>MD5: 145F3CF9A90511AB87794BC03BA2BAF0</p>
-        <p>SHA1: 0449A9C3BB0A7E604579DBDD108541309B2A0A80</p>
-        <p>SHA-256: EA7788F73B4CD6B6820537FCCD87839B010E5D973DB99C56B86C4D72F184E17D</p>
-        <p>CRC32: F6C0CBC3</p>
-        <p>CRC64: 4CA699DCAC7AB2F6</p>
- 	      <br>
-        <div class="row">
-      		<div class="col s12 m5">
-        		<div class="card-panel red-accent-4"><span class="black-text"><b>Hope you like Sharp!</b></span>
-        	</div>
-        </div>
-        	<br><br><br><br><br><br><br><br>
-        	<hr color='black'>
-        	<h1>Offline Editor Download <small style='color:red'>BETA</small></h1>
-        	<p>You can download the offline editor here:</p>
-        	<a href="/sharp-offline-downloads/publish.htm">Sharp Offline Editor</a>
-          <br>
-          <p><b>Checksums for setup.exe:</b></p>
-          <p>MD5: 2216BB0F2ECDE900CB736AB567DC40BA</p>
-          <p>SHA1: 245EC06962D95799AFA19C2ADF67292BAB9DA8F5</p>
-          <p>SHA-256: 65299AFDEC994B29DFB534A7B28F8FA4B6614B85A83C87B9EE6E04B94C8235ED</p>
-          <p>CRC32: BE3BD496</p>
-          <p>CRC64: E4B95E908AC68CBB</p>
-          <br>
-        	<div class="row">
-        		<div class="col s12 m5">
-        			<div class="card-panel red-accent-4">
-        				<span class="black-text">
-        					<b>The offline editor is for Windows only for now!</b>
-        				</span>
-        			</div>
-        		</div>
-        	</div>
-      </div>
-    </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        </div>
+		<div class="row">
+			<div class="col s6">
+				<h5>Sharp Offline Editor (Windows)</h5>
+				The Sharp Offline Editor only works on Windows right now<br />
+				<a href="/sharp-offline-downloads/publish.htm"><i class="material-icons">file_download</i> Download</a><br />
+				<div class="card">
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Checksums for setup.exe<i class="material-icons right">more_vert</i></span>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Checksums for setup.exe<i class="material-icons right">close</i></span>
+						<p>
+							MD5: 2216BB0F2ECDE900CB736AB567DC40BA
+							<br />
+							SHA1: 245EC06962D95799AFA19C2ADF67292BAB9DA8F5
+							<br />
+							SHA-256: 65299AFDEC994B29DFB534A7B28F8FA4B6614B85A83C87B9EE6E04B94C8235ED
+							<br />
+							CRC32: BE3BD496
+							<br />
+							CRC64: E4B95E908AC68CBB
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col s6">
+				<h5>Sharp Offline Editor (Other OSes)</h5>
+				You have to download the .swf for other OSes right now.<br />
+				<a href="https://raw.githubusercontent.com/SharpScratchMod/SharpScratchMod.github.io/master/Sharp.swf"><i class="material-icons">file_download</i> Download Sharp.swf</a>
+				<a href="/Sharp.swf"><i class="material-icons">play_arrow</i> Use Sharp Online</a><br />
+				<div class="card">
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Checksums for Sharp.swf<i class="material-icons right">more_vert</i></span>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Checksums for Sharp.swf<i class="material-icons right">close</i></span>
+						<p>
+							MD5: 145F3CF9A90511AB87794BC03BA2BAF0
+							<br />
+							SHA1: 0449A9C3BB0A7E604579DBDD108541309B2A0A80
+							<br />
+							SHA-256: EA7788F73B4CD6B6820537FCCD87839B010E5D973DB99C56B86C4D72F184E17D
+							<br />
+							CRC32: F6C0CBC3
+							<br />
+							CRC64: 4CA699DCAC7AB2F6
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s12">
+				<h5>Sharp Bleeding Edge (Coming Soon)</h5>
+				Sharp Bleeding Edge will be a version of the .swf that is built more often then the normal Sharp.swf<br />
+				<a href="/download/"><i class="material-icons">file_download</i> Download SharpBleedingEdge.swf</a><br />
+			</div>
+		</div>
+	</div>
       <footer class="page-footer">
           <div class="container">
               <div class="row">
@@ -88,7 +99,6 @@
               </div>
           </div>
       </footer>
-  		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
 	</body>
 </html>
